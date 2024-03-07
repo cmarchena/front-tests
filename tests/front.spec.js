@@ -4,8 +4,8 @@ const path = require('path');
 
 
 // Read HTML and CSS files
-const htmlFilePath = path.resolve(__dirname, 'index.html');
-const cssFilePath = path.resolve(__dirname, 'styles.css');
+const htmlFilePath = path.resolve(__dirname, '../student_submission/index.html');
+const cssFilePath = path.resolve(__dirname, '../student_submission/styles.css');
 const htmlContent = fs.readFileSync(htmlFilePath, 'utf8');
 const cssContent = fs.readFileSync(cssFilePath, 'utf8');
 let htmlDoc;
