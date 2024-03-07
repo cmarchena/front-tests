@@ -1,4 +1,0 @@
-{
-    "testEnvironment": "jsdom",
-    "testMatch": ["**/tests/**/*.spec.js"]
-}
